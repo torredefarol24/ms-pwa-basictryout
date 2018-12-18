@@ -1,0 +1,15 @@
+{
+  "name": "ms-pwa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Toufiq (https://twitter.com/burningraven06)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "http-server" : "^0.11.1"
+  },
+  "scripts" : {
+    "start" : "http-server -c-1 -p 3000"
+  },
+  "description": "PWA Tryout"
+}

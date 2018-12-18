@@ -22,3 +22,9 @@ function animateCard(){
     pwaCardDetails.style.opacity = 1;
   }, 300);
 }
+
+if ("serviceWorker" in navigator){
+  let serviceWorkerPath = "/sw.js"
+  navigator.serviceWorker.register(serviceWorkerPath)
+    .then(  () => console.log("SW Registered"))
+}
